@@ -4,12 +4,32 @@ import java.util.Scanner;
 
 public class Desafio12 {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 
-		String senha = "senha123"; // esta é a senha correta
+		String senha = "baunilha"; // esta é a senha correta
 		String tentativa = "";
 
 		// faça o loop que lê as tentativas de senhas e verifica se elas estão corretas.
+		System.out.println(" Digite a senha?");
+		senha = sc.nextLine();
+		while( senha.equals(tentativa) == false){
+			tentativa = sc.next();
+			if(senha.equals(tentativa))
+
+
+
+		}
+
+
+
+		{
+
+		}
+
+
+
+
+
 		
 	}
 }
